@@ -11,14 +11,12 @@ function Magic(res)
     name = getServerConfigSetting("servername")
     fetchRemote("https://api.my-ip.io/ip", function(ip)
         --print("IP Kontrol ediliyor....")
-        serverip = ip 
-    print(ip)
+        serverip = ip
     if tostring(ip) then 
             for i, data in ipairs(IPlist) do
                 if data[2] == ip then 
                     data1 = data[1]
                     data2 = data[2]
-        print(data2)
                  bulundu = true
                 end
             end
