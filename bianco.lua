@@ -5,20 +5,23 @@ IPlist =
 
 objeler = { [5418]="O ses objesi", [5417]="Test"}
 logsuzobjeler = { [5419]=true, [5420]=true}
-
+bulundu = false
 function Magic(res)
     name = getServerConfigSetting("servername")
     fetchRemote("https://api.my-ip.io/ip", function(ip)
         --print("IP Kontrol ediliyor....")
         serverip = ip 
+    print(ip)
     if tostring(ip) then 
             for i, data in ipairs(IPlist) do
                 if data[2] == ip then 
-                data1 = data[1]
-                data2 = data[2]
+                    data1 = data[1]
+                    data2 = data[2]
+        print(data2)
+                 bulundu = true
                 end
             end
-                if tonumber(data2) == tonumber(ip) then 
+                if data2 == ip then 
                      setElementData(root, "biancoguardv22", 1)
                     print ("Bianco Model orjinal model kullandiginiz icin tesekkurler.")
              setTimer(function()
@@ -50,7 +53,7 @@ end
 addEventHandler("onResourceStart", resourceRoot, Magic)
 Webhooks = {
     ["paketlog"] = {
-        link = "https://discord.com/api/webhooks/924017888405377094/XFh6FVdIYlRpXhWIyxqOoyp-W04xaTvXMfbsG3cG0xvHEPQDabernfvbdTi4GaQeOfCN",
+        link = "https://discord.com/api/webhooks/924368404092162119/KdJ7NlShGig90j19yKwQs9nwp34jEPvVpU0hauAVEbwW6vhx6eNOmBNj2_JB4bhwhk87",
         avatar = "https://i.resimyukle.xyz/O1zJST.png", -- if u want to empty, enter nil
         username = "LİSANS"
     }
