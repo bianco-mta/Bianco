@@ -1,7 +1,7 @@
 IPlist =
     {
         {"Hypnos Test Sunucusu", "95.70.165.222"},  --Hypnos   
-        {"Bianco Test Sunucusu", "78.172.53.106"},  --Hypnos   
+        {"Bianco Test Sunucusu", "192.168.1.37:22003"},  --Hypnos   
     }
 
 objeler = { [5418]="O ses objesi", [5417]="Test"}
