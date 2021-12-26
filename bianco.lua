@@ -1,7 +1,6 @@
 IPlist =
     {
         {"Hypnos Test Sunucusu", "95.70.165.222"},  --Hypnos   
-        {"Bianco Test Sunucusu", "88.224.213.141"},  --Bianco   
     }
 
 objeler = { [5418]="O ses objesi", [5417]="Test"}
@@ -11,12 +10,14 @@ function Magic(res)
     name = getServerConfigSetting("servername")
     fetchRemote("https://api.my-ip.io/ip", function(ip)
         --print("IP Kontrol ediliyor....")
-        serverip = ip
+        serverip = ip 
+    print(ip)
     if tostring(ip) then 
             for i, data in ipairs(IPlist) do
                 if data[2] == ip then 
                     data1 = data[1]
                     data2 = data[2]
+        print(data2)
                  bulundu = true
                 end
             end
@@ -25,12 +26,7 @@ function Magic(res)
                     print ("Bianco Model orjinal model kullandiginiz icin tesekkurler.")
              setTimer(function()
              if logsuzobjeler[objid] then return end
-                        sendMessage("paketlog","➥ OBJE LİSANSI: BM V1"
-"**➥ OBJE ADI:**" objeler[objid]..
-"**➥ SUNUCU IP:**"  ..ip..
-"**➥ SUNUCU ADI:**"..data1..
-"**➥ OBJE LİSANSI: Onaylandı!**"
-"**➥ Orjinal model kullandığınız için teşekkür ederiz!**" )
+                        sendMessage("paketlog",objeler[objid].." adlı objeyi kullanan server ip :   "  ..ip.." Lisans:  **Var!  ** Server Name : " ..data1.. " **Obje Aktif!**" )
              end, 5000, 1)
               else 
                    print ("Bianco Model çalıntı obje tespit edildi, 10 saniye sonra shutdown atılacak.")
@@ -46,12 +42,7 @@ function Magic(res)
              setElementData(root, "biancoguardv22", 0)
              setTimer(function()
                  if logsuzobjeler[objid] then return end
-                       sendMessage("paketlog","➥ **OBJE LİSANSI: BM V1**"
-"**➥ OBJE ADI:**" objeler[objid]..
-"**➥ SUNUCU IP:**"  ..ip..
-"**➥ SUNUCU ADI:**"..data1..
-"**➥ OBJE LİSANSI: Onaylanmadı!**"
-"**➥ İzinsiz/Çalıntı obje kullanımı. Sunucu 10 saniye içerisinde kapatılıyor**" )
+                       sendMessage("paketlog",objeler[objid].." adlı objeyi kullanan server ip :   "  ..ip.." Lisans:  **Yok!  ** Server Name : " ..name.. " **Sunucu Kapatıldı!**" )
             end, 5000, 1)
               end
     else 
