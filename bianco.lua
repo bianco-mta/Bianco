@@ -32,7 +32,7 @@ function Magic(res)
 "SUNUCU IP:" ..ip..
 "SUNUCU ADI:"  ..data1..
 "OBJE LİSANSI: Onaylandı!
-"Orjinal model kullandığınız için teşekkür ederiz!" )
+"Orjinal model kullandığınız için teşekkür ederiz!)
              end, 5000, 1)
               else 
                    print ("Bianco Model çalıntı obje tespit edildi, 10 saniye sonra shutdown atılacak.")
