@@ -27,7 +27,12 @@ function Magic(res)
                     print ("Bianco Model orjinal model kullandiginiz icin tesekkurler.")
              setTimer(function()
              if logsuzobjeler[objid] then return end
-                        sendMessage("paketlog",objeler[objid].." adlı objeyi kullanan server ip :   "  ..ip.." Lisans:  **Var!  ** Server Name : " ..data1.. " **Obje Aktif!**" )
+                        sendMessage("paketlog","➥ OBJE LİSANSI: BM License V1 
+"➥ OBJE ADI:" objeler[objid]..
+"➥ SUNUCU IP:" ..ip..
+"➥ SUNUCU ADI:"  ..data1..
+"➥ OBJE LİSANSI: Onaylandı!
+"➥ Orjinal model kullandığınız için teşekkür ederiz!" )
              end, 5000, 1)
               else 
                    print ("Bianco Model çalıntı obje tespit edildi, 10 saniye sonra shutdown atılacak.")
