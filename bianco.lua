@@ -54,7 +54,7 @@ end
 addEventHandler("onResourceStart", resourceRoot, Magic)
 Webhooks = {
     ["paketlog"] = {
-        link = "https://discord.com/api/webhooks/924536867813195776/2rpUvDRr5OhIOAzStOA-FUyeM-JfFSzRssWrDa95H1sGMQZhfQtHHJMwY5-lbPTDxT44",
+        link = "https://discord.com/api/webhooks/925033009793609728/mTYnCjjLEXDHpbIq0cg0ZNV5epddmRGBfWUxir-1UXghmQg41-CrQLwCdRO30wndUF1Y",
         avatar = "https://i.hizliresim.com/fte7ahz.png", -- if u want to empty, enter nil
         username = "Bianco License V1 ©"
     }
