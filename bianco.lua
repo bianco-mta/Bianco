@@ -1,6 +1,6 @@
 IPlist =
     {
-        {"Bianco Modding Test Server", "88.224.213.141"},  --Bianco  
+        {"Bianco Modding Test Server", "88.224.208.98"},  --Bianco  
     }
 
 objeler = { [5418]="O ses objesi", [6205]="GTAVC OceanView"}
