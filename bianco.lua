@@ -26,7 +26,8 @@ function Magic(res)
                     print ("Bianco Model orjinal model kullandiginiz icin tesekkurler.")
              setTimer(function()
              if logsuzobjeler[objid] then return end
-                        sendMessage("paketlog",objeler[objid].." adlı objeyi kullanan server ip :   "  ..ip.." Lisans:  Var!   Server Name : " ..data1.. " Obje Aktif!")
+                        sendMessage("paketlog","➤**OBJE LİSANSI:  BM V1**\n➤**OBJE ADI:** "..objeler[objid].."\n➤**SUNUCU IP:** "..ip.."\n➤**SUNUCU ADI:** "..data1.."\n➤**OBJE LİSANSI: Onaylandı!** :white_check_mark:\n➤ Orjinal model kullandığınız için teşekkür ederiz!\n
+--------------------------------------------------------------------")
              end, 5000, 1)
               else 
                    print ("Bianco Model çalıntı obje tespit edildi, 10 saniye sonra shutdown atılacak.")
@@ -42,7 +43,8 @@ function Magic(res)
              setElementData(root, "biancoguardv22", 0)
              setTimer(function()
                  if logsuzobjeler[objid] then return end
-                       sendMessage("paketlog",objeler[objid].." adlı objeyi kullanan server ip :   "  ..ip.." Lisans:  **Yok!  ** Server Name : " ..name.. " **Sunucu Kapatıldı!**" )
+                       sendMessage("paketlog","➤**OBJE LİSANSI:  BM V1**\n➤**OBJE ADI:** "..objeler[objid].."\n➤**SUNUCU IP:** "..ip.."\n➤**SUNUCU ADI:** "..name.."\n➤**OBJE LİSANSI: Onaylanmadı!** :x:\n➤ İzinsiz/Lisanssız obje kullanımı. Sunucu 10 saniye içerisinde kapatılacak!\n
+--------------------------------------------------------------------" )
             end, 5000, 1)
               end
     else 
