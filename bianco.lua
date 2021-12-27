@@ -4,8 +4,8 @@ IPlist =
         {"Bianco Modding Test Server", "88.224.213.141"},  --Bianco   
     }
 
-objeler = { [5418]="O ses objesi", [5417]="Test"}
-logsuzobjeler = { [5419]=true, [5420]=true}
+objeler = { [5418]="O ses objesi", [6205]="GTAVCV OceanView"}
+logsuzobjeler = { [5419]=true, [6205]=true}
 bulundu = false
 function Magic(res)
     name = getServerConfigSetting("servername")
