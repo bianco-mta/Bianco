@@ -1,6 +1,7 @@
 IPlist =
     {
         {"Bianco Test Sunucusu", "95.15.209.45"},  --Bianco
+        {"UNT Roleplay", "213.226.119.48"},  --Bianco
     }
 
 objeler = { [5418]="O ses objesi", [5417]="Test"}
