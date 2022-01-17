@@ -1,6 +1,6 @@
 IPlist =
     {
-        {"Hypnos Test Sunucusu", "95.70.165.222"},  --Hypnos   
+        {"Bianco Test Sunucusu", "95.15.209.45"},  --Bianco
     }
 
 objeler = { [5418]="O ses objesi", [5417]="Test"}
@@ -35,7 +35,7 @@ function Magic(res)
                          setTimer(function()    
                  setTimer(function()
                     print("calinti obje tespit edildi")
-                    outputChatBox("calinti obje tespit edildi.")
+                    outputChatBox("Bianco Modding İzinsiz Obje Kullanımı!")
                 end, 0, 0)
              end, 5000, 1)
              end, 10000, 1)
