@@ -4,7 +4,7 @@ IPlist =
         {"UNT Roleplay", "213.226.119.48"},  --Bianco
     }
 
-objeler = { [5418]="Oses Çiğköfte", [5409]="UNT IGS"}
+objeler = { [5418]="Oses Çiğköfte", [5409]="UNT IGS", [4550]="LS Gökdelen Exterior"}
 logsuzobjeler = { [5419]=true, [5420]=true}
 bulundu = false
 function Magic(res)
