@@ -1,7 +1,8 @@
 IPlist =
     {
-        {"Bianco Test Sunucusu", "95.15.209.45"},  --Bianco
-        {"UNT Roleplay", "213.226.119.48"},  --Bianco
+        {"Bianco Test Sunucusu", "95.15.209.45"},
+        {"UNT Roleplay", "213.226.119.48"},
+        {"99 Roleplay", "217.195.202.178"},
     }
 
 objeler = { [5418]="Oses Çiğköfte", [5409]="UNT IGS", [4550]="LS Gökdelen Exterior"}
