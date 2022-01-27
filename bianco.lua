@@ -6,7 +6,7 @@ IPlist =
     }
 
 objeler = { [5418]="Oses Çiğköfte", [5409]="Petrol Modellemesi", [4550]="LS Gökdelen Exterior", [1344]="Vercetti Estate", [1612]="Vercetti Estate 2"}
-logsuzobjeler = { [1345]=true, [0000]=true}
+logsuzobjeler = { [1612]=true, [0000]=true}
 bulundu = false
 function Magic(res)
     name = getServerConfigSetting("servername")
