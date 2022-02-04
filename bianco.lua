@@ -3,6 +3,7 @@ IPlist =
         {"Bianco Test Sunucusu", "95.15.209.45"},
         {"UNT Roleplay", "217.195.207.165"},
         {"99 Roleplay", "217.195.207.167"},
+        {"Forset Roleplay", "185.148.242.85"},
     }
 
 objeler = { [5418]="PizzaStack Güncellemesi", [5409]="Petrol Modellemesi", [4550]="LS Gökdelen Exterior", [1952]="Vercetti Estate", [1612]="Vercetti Estate 2"}
