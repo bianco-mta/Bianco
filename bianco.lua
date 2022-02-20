@@ -7,7 +7,7 @@ IPlist =
         {"Vira Roleplay", "213.226.119.26"},
     }
 
-objeler = { [5418]="PizzaStack Güncellemesi", [5409]="Petrol Modellemesi", [4550]="LS Gökdelen Exterior", [1952]="Vercetti Estate", [1612]="Vercetti Estate 2"}
+objeler = { [5418]="PizzaStack Modellemesi", [5409]="Petrol Modellemesi", [4550]="LS Gökdelen Exterior", [1952]="Vercetti Estate", [1612]="Vercetti Estate 2"}
 logsuzobjeler = { [1612]=true, [0000]=true}
 bulundu = false
 function Magic(res)
