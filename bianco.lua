@@ -1,6 +1,6 @@
 IPlist =
     {
-        {"Bianco Test Sunucusu", "95.15.209.45"},
+        {"Bianco Test Sunucusu", "88.242.50.119"},
         {"Rosse Roleplay", "217.195.207.165"},
         {"99 Roleplay", "217.195.207.167"},
         {"Forset Roleplay", "185.148.242.85"},
