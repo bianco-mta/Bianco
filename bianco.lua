@@ -4,7 +4,7 @@ IPlist =
         {"Rosse Roleplay", "217.195.207.165"},
         {"99 Roleplay", "217.195.207.167"},
         {"Forset Roleplay", "185.148.242.85"},
-        {"Vira Roleplay", "213.226.119.26"},
+        {"Vira Roleplay", "185.148.242.88"},
         {"Always Roleplay", "45.131.3.156"},
     }
 
