@@ -7,6 +7,7 @@ IPlist =
         {"Vira Roleplay", "185.148.242.88"},
         {"Always Roleplay", "45.131.3.156"},
         {"Papel Roleplay", "217.195.207.226"},
+        {"drex Roleplay", "127.0.0.1"},
     }
 
 objeler = { [5418]="PizzaStack Modellemesi", [5409]="Petrol Modellemesi", [4550]="LS Gökdelen Exterior", [1952]="Vercetti Estate", [1612]="Vercetti Estate 2"}
